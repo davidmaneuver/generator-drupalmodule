@@ -1,0 +1,10 @@
+name = <%= moduleName %>
+description = <%= moduleDesc %>
+package = <%= modulePackage %>
+version = VERSION
+core = 7.x
+<%= dependencies %>
+
+<%= stylesheets %>
+
+<%= javascripts %>

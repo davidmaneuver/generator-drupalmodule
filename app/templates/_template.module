@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function <%= moduleName %>_menu(){
+  $items = array();
+
+  $items['some/path'] = array(
+    'title' => '',
+    'description' => '',
+    'type' => MENU_NORMAL_ITEM,
+    'page callback' => '',
+    'page arguments' => array(),
+    'access arguments' => array('my custom permission')
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_permission().
+ */
+function <%= moduleName %>_permission(){
+  $perms = array();
+
+  $perms['my custom permission'] => array(
+    'title' => '',
+    'description' => '',
+  );
+
+  return $perms;
+}
