@@ -1,7 +1,6 @@
 # Generator-drupalmodule
-[![Build Status](https://secure.travis-ci.org/davidgenetic/generator-drupalmodule.png?branch=master)](https://travis-ci.org/davidgenetic/generator-drupalmodule)
 
-A generator for Yeoman.
+Yeoman generator for drupal modules.
 
 ## Getting started
 - Make sure you have [yo](https://github.com/yeoman/yo) installed:
