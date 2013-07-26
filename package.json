@@ -1,7 +1,7 @@
 {
   "name": "generator-drupalmodule",
-  "version": "0.0.1",
-  "description": "A generator for Yeoman",
+  "version": "0.1.1",
+  "description": "Yeoman generator for drupal modules",
   "keywords": [
     "yeoman-generator"
   ],

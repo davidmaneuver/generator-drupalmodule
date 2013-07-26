@@ -62,7 +62,7 @@ DrupalmoduleGenerator.prototype.askFor = function askFor() {
     this.moduleDesc = props.moduleDesc;
     this.modulePackage = props.modulePackage;
     this.dependencies = props.moduleDepend.length !== 0 ? 'dependencies[] = ' + props.moduleDepend.split(' ').join('\r\ndependencies[] = ') : '';
-    this.stylesheets = (/y/i).test(props.addCss) ? 'stylesheets[all] = ' + this.moduleName + '.css' : '';
+    this.stylesheets = (/y/i).test(props.addCss) ? 'stylesheets[all][] = ' + this.moduleName + '.css' : '';
     this.javascripts = (/y/i).test(props.addJs)? 'scripts[] = ' + this.moduleName + '.js' : '';
 
     cb();

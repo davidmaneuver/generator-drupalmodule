@@ -24,7 +24,7 @@ function <%= moduleName %>_menu(){
 function <%= moduleName %>_permission(){
   $perms = array();
 
-  $perms['my custom permission'] => array(
+  $perms['my custom permission'] = array(
     'title' => '',
     'description' => '',
   );
